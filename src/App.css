@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container input {
+  width: 60%; /* Input alanının genişliğini artırın */
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.container input:focus {
+  border-color: dodgerblue;
+}
+
+.container-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-input label {
+  font-size: 20px; /* Decimal Number yazısının font boyutunu artırın */
+  margin-bottom: 5px; /* Input alanıyla arasındaki boşluğu ayarlayın */
+  width: 200px;
+  font-weight: bold;
+}
+
+.container-output {
+  display: flex; /* Yazıları yatay düzende göstermek için */
+  justify-content: center; /* Yatayda ortala */
+  align-items: center; /* Dikeyde ortala */
+  margin-top: 20px; /* Uzaklığı ayarlayın */
+}
+
+.container-output h3 {
+  margin: 0 10px; /* Yazılar arasında boşluk bırakın */
+}
